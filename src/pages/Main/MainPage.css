@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    font-family: "Roboto Mono", monospace;
+}
+
+.main-layout {
+    width: 100%;
+    min-width: 0;
+    /* 🔥 olmazsa toolbar daralır */
+}
+
+.main-content {
+    font-size: 30px;
+    height: 90vh;
+}
+
+.divider-imgs {
+    width: 400px;
+}
+
+@media (max-width:1256px) {
+    .main-content {
+        font-size: 20px;
+    }
+
+    .divider-imgs {
+        width: 300px;
+    }
+}
+
+@media (max-width:942px) {
+    .content-divs {
+        flex-direction: column;
+    }
+
+    .mid-content-div {
+        flex-direction: column-reverse;
+    }
+
+    .last-content-div {
+        flex-direction: column;
+    }
+
+    .main-content {
+        font-size: 15px;
+    }
+
+    .divider-imgs {
+        width: 200px;
+    }
+}
+
+
+@media (max-width:680px) {
+    .content-divs {
+        flex-direction: column;
+    }
+
+    .mid-content-div {
+        flex-direction: column-reverse;
+    }
+
+    .last-content-div {
+        flex-direction: column;
+    }
+
+    .main-content {
+        font-size: 15px;
+    }
+
+    .divider-imgs {
+        width: 100px;
+    }
+}

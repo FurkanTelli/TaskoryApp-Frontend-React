@@ -1,0 +1,11 @@
+.p-panel-header-class {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    border-bottom: 1px solid gray;
+}
+
+
+.p-panel-title:has(.p-panel-header-class) {
+    width: 100%;
+}

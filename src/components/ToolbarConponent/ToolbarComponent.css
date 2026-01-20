@@ -1,0 +1,4 @@
+.card {
+    flex: 1;        /* 🔥 kalan alanın tamamı */
+    min-width: 0;   /* 🔥 flex overflow fix */
+}
